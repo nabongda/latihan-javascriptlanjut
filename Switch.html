@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<!-- COMP519 js01.html 7.09.2005 -->
+<head>
+	<title>Switch</title>
+</head>
+<body>
+	<SCRIPT LANGUAGE="JavaScript">
+		function tanya()
+		{
+			var jawab=""
+			var jawab=prompt("Anda senang bikin hompej ?")
+			var JAWAB = jawab.toUpperCase()
+			switch(JAWAB)
+			{
+				case"YA": var tampil="Sama dong, saya juga :D"
+				break;
+				case"YUP": var tampil="Sama dong, saya juga :D"
+				break;
+				case"TIDAK": var tampil="Iya euy, bikin suntuk tuh (__)Zz.."
+				break;
+				case"NGGAK": var tampil="Iya euy, bikin suntuk tuh (__)Zz.."
+				break;
+				default: var tampil="Jawab dong, ya/yup atau tidak/nggak"
+				break;
+			}
+			alert(tampil)
+		}
+		</SCRIPT><b>Hobi</b>
+		<FORM><INPUT TYPE="button" VALUE="polling" onClick="tanya()">
+		</FORM>
+</body>
+</html>
